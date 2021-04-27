@@ -1,0 +1,11 @@
+@mixin boton($color) {
+    place-self: center;
+    color: $principal;
+    padding: 1rem 2rem;
+    background-color:  transparent;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: large;
+    border: 3px solid $principal;
+    margin-top: 3rem;
+  }
