@@ -703,8 +703,9 @@ body {
   display: flex;
   justify-content: flex-end;
   position: absolute;
-  top: calc(100vh - 125px);
-  width: 98vw;
+  top: calc(100vh - -120px);
+  width: 181vw;
+  transform: rotate(-90deg);
   @media (min-width: $tablet) {
     top: 1.3rem;
     left: 1rem;
@@ -716,7 +717,7 @@ body {
   position: relative;
   display: inline-block;
   width: 60px;
-  height: 34px;
+  height: 35px;
   margin-right: 1rem;
 }
 
