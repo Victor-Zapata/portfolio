@@ -30,25 +30,21 @@ export default () => {
       <section id='hero'>
         <div className='container-home'>
           <Curva className='imagen-home' />
-
-          <ul className="languages">
-            <i className='fas fa-globe' />
-            {languages.map((lng) => (
-              <li key={lng}>
-                <button
-                  className='boton-idioma'
-                  href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    changeLanguage(lng);
-                  }}>
-                  {lng}
-                </button>
-
-              </li>
-            ))}
-
+          <ul className="world">
+                {languages.map((lng) => (
+                  <li key={lng} className='nav__submenu-item'>
+                    <a >
+                      <div onClick={(e) => {
+                        e.preventDefault();
+                        changeLanguage(lng);
+                      }} >
+                        <div className={`lang-${lng}`}></div>
+                      </div>
+                    </a>
+                  </li>
+                ))}
           </ul>
+
           <DarkModeSwitch />
           <h1 className='animate__animated animate__fadeInRight'>
             {t('hi')} <span>{t('victor')}</span>
@@ -83,7 +79,7 @@ export default () => {
           <h2 className='animate__animated animate__fadeInDown'>
             {t('projects')}
           </h2>
-          
+
           <div className='container-proyecto-img'>
             <div className='container-sin-img animate__animated animate__fadeInLeft'>
               <h3>
@@ -97,7 +93,7 @@ export default () => {
               </div>
             </div>
             <img src={henryfy} className='imagen-proyectos animate__animated animate__fadeInRight' />
-          </div>        
+          </div>
 
           <div className='container-proyecto-img'>
             <div className='container-sin-img animate__animated animate__fadeInLeft'>

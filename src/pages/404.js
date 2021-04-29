@@ -10,12 +10,13 @@ export default () => {
   return (
     <>
       <Helmet>
-        <meta charSet="utf-8" />
         <title>Page not found</title>
-        <html lang='es'/>
         <meta name="description" content="Page not found" />
       </Helmet>
-     
+      <div style={{display:'grid', placeContent:'center', height:'100vh'}}>
+        <h1>Página no encontrada</h1>
+      </div>
+        
     </>
   );
 };

@@ -65,33 +65,46 @@ body {
     }
   }
 
-  .languages {
+  .world {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-  }
+    top: 5.5vh;
+    right: 2vh;
 
-  i.fa-globe {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 0.3rem;
-    
-    body.dark & {
-      color: $rosa;
+    .lang-es {
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bandera_Espa%C3%B1ola_con_escudo_Republicano.svg/1280px-Bandera_Espa%C3%B1ola_con_escudo_Republicano.svg.png');
+      background-size: 100% 100%;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 15px;
+      cursor: pointer;
+      margin: 0.5rem 0;
+      opacity: 0.5;
+      transition: 0.3s ease all;
+      &:hover {
+        opacity: 1;
+      }
+      body.dark & {
+        opacity: 0.8;
+      }
     }
-  }
-
-  .boton-idioma {
-    border: none;
-    padding: 0.2rem;
-    cursor: pointer;
-    background: transparent;
-    font-size: 1rem;
-    text-align: center;
-    body.dark & {
-      color: $rosa;
+    .lang-en {
+      background-image: url('https://electomania.es/wp-content/uploads/2020/01/USA.png');
+      background-size: 100% 100%;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-top: 0.5rem;
+      opacity: 0.5;
+      transition: 0.3s ease all;
+      &:hover {
+        opacity: 1;
+      }
+      body.dark & {
+        opacity: 0.8;
+      }
     }
   }
 
@@ -226,24 +239,23 @@ body {
     transition: 0.5s ease all;
     cursor: pointer;
 
-
     @media (min-width: $tablet) {
       width: 78%;
       height: 28vh;
+
+      &:hover {
+        box-shadow: 6px 6px 40px 10px $negro;
+
+        body.dark & {
+          box-shadow: 6px 6px 40px 10px #fff;
+        }
+      }
     }
     @media (min-width: $desktop) {
       width: 40%;
       height: 46vh;
       margin: 0;
     }
-
-    &:hover {
-      box-shadow: 6px 6px 40px 10px $negro;
-    
-    body.dark & {
-      box-shadow: 6px 6px 40px 10px #fff;
-    }
-  }
   }
 
   .container-datos {
@@ -520,7 +532,6 @@ body {
       color: $principal;
       transition: 0.5s all ease;
 
-
       @media (min-width: $tablet) {
         font-size: 1.5rem;
       }
@@ -565,6 +576,18 @@ body {
       width: 81%;
       height: 35vh;
       object-fit: cover;
+
+      &:hover {
+        box-shadow: 6px 6px 40px 10px $principal;
+        width: 80%;
+        height: 34vh;
+      }
+
+      body.dark & {
+        &:hover {
+          box-shadow: 6px 6px 40px 10px #5f4b8bff;
+        }
+      }
     }
     @media (min-width: $desktop) {
       flex: 1.5;
@@ -575,18 +598,6 @@ body {
     }
     @media (min-width: $large) {
       object-position: cover;
-    }
-
-    &:hover {
-      box-shadow: 6px 6px 40px 10px $principal;
-      width: 80%;
-      height: 34vh;
-    }
-
-    body.dark & {
-      &:hover {
-        box-shadow: 6px 6px 40px 10px #5f4b8bff;
-      }
     }
   }
 }
@@ -692,7 +703,7 @@ body {
   display: flex;
   justify-content: flex-end;
   position: absolute;
-  top: calc(100vh - 80px);
+  top: calc(100vh - 95px);
   width: 95vw;
   @media (min-width: $tablet) {
     top: 1.3rem;
@@ -768,8 +779,6 @@ input:checked + .slider:before {
   width: 19px;
   margin: 0.6rem 0.5rem;
 }
-
-
 
 // /* Home */
 // .container-home {
