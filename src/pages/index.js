@@ -13,6 +13,9 @@ import breakingbad from '../images/breakingbad.jpg'
 import henryfy from '../images/henryfy.jpg'
 import simpsons from '../images/simpsons.jpg'
 import Mail from '../assets/Mail.svg'
+import navix from '../images/navix.jpg'
+import loveseat from '../images/loveseat.jpg'
+import tignis from '../images/tignis.jpg'
 
 
 export default () => {
@@ -76,6 +79,55 @@ export default () => {
       <section id='proyectos'>
 
         <div className='container-proyectos'>
+          <h2 className='animate__animated animate__fadeInDown'>
+            {t('experience')}
+          </h2>
+
+          <div className='container-proyecto-img'>
+            <div className='container-sin-img animate__animated animate__fadeInLeft'>
+              <h3>
+                {t('tignis')}</h3>
+              <h4>{t('description-tignis')}</h4>
+              <div className='container-botones'>
+                <a className='boton-seelive' href='https://tignis.com/' target='_blank'>
+                  {t('see-live')}
+                </a>
+                <a className='boton-sourcecode' href='https://tignis.com/' target='_blank'>{t('source-code')}</a>
+              </div>
+            </div>
+            <img src={tignis} className='imagen-proyectos animate__animated animate__fadeInRight' />
+          </div>
+
+          <div className='container-proyecto-img'>
+            <div className='container-sin-img animate__animated animate__fadeInLeft'>
+              <h3>
+                {t('loveseat')}</h3>
+              <h4>{t('description-loveseat')}</h4>
+              <div className='container-botones'>
+                <a className='boton-seelive' href='https://loveseat.netlify.app/' target='_blank'>
+                  {t('see-live')}
+                </a>
+                <a className='boton-sourcecode' href='https://loveseat.netlify.app/' target='_blank'>{t('source-code')}</a>
+              </div>
+            </div>
+            <img src={loveseat} className='imagen-proyectos animate__animated animate__fadeInRight' />
+          </div>
+
+          <div className='container-proyecto-img'>
+            <div className='container-sin-img animate__animated animate__fadeInLeft'>
+              <h3>
+                {t('navix')}</h3>
+              <h4>{t('description-navix')}</h4>
+              <div className='container-botones'>
+                <a className='boton-seelive' href='https://navix.netlify.app/dashboard.html' target='_blank'>
+                  {t('see-live')}
+                </a>
+                <a className='boton-sourcecode' href='https://navix.netlify.app/dashboard.html' target='_blank'>{t('source-code')}</a>
+              </div>
+            </div>
+            <img src={navix} className='imagen-proyectos animate__animated animate__fadeInRight' />
+          </div>
+
           <h2 className='animate__animated animate__fadeInDown'>
             {t('projects')}
           </h2>
