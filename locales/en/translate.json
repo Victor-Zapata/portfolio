@@ -7,6 +7,7 @@
   "description": "I specialize in Front-End technologies within the JS ecosystem, expanding frontiers to Back-End technologies, mobile frameworks and in constant evolution. I find myself looking for a job that challenges me every day", 
   "description2": "I am constantly improving my knowledge, I am proactive and I love working as a team. Every day I learn something new.",
   "projects": "Projects", 
+  "experience": "Professional Experience",
   "super-heroes-app": "Super Heroes App",
   "description-super-heroes-app": "Marvel and DC hero seeker. SPA (Single Page Application), multiples routers, Push and Replace in the History, read arguments by url, QueryParams, apply filters using QueryStrings.", 
   "see-live": "See Live",
@@ -24,5 +25,11 @@
   "description-henryfy":"Full Ecommerce carried out in a group for the final work of the SoyHenry Bootcamp. React, Redux, Sequelize, Boostrap, User Authentication, Shopping Carts, Order Management, Reviews and many more.",
   "experiences": "Experiences", 
   "gif-expert-app": "Gif Expert App",
-  "description-gif-expert-app": "App to find 10 gifs of the subject that is and to be able to display them. They will always be sorted from the last search to the first. Query an API and use React Hooks."
+  "description-gif-expert-app": "App to find 10 gifs of the subject that is and to be able to display them. They will always be sorted from the last search to the first. Query an API and use React Hooks.",
+  "navix": "Navix", 
+  "description-navix": "Site to manage the different processes for the preparation of invoices. Task carried out during my professional experience at Pengyi Labs, Costa Rica.",
+  "loveseat":"Loveseat",
+  "description-loveseat": "Mid century modern for every room, designer linens, brand new mattresses, danish style, cabinets, vintage seating & more. Site developed during my professional experience at Pengyi Labs, Costa Rica.",
+  "tignis":"Tignis",
+  "description-tignis": "Ai-Powered Process Control With A Physics And Engineering Foundation. Site developed during my professional experience at Pengyi Labs, Costa Rica. Worked with Wordpress."
 }

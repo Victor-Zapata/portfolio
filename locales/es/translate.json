@@ -7,6 +7,7 @@
   "description": "Me especializo en tecnologías Front-End dentro del ecosistema JS, ampliando fronteras a tecnologías Back-End, frameworks móviles y en constante evolución. Me encuentro buscando un trabajo que me desafíe todos los días.", 
   "description2": "Estoy mejorando constantemente mis conocimientos, soy proactivo y me encanta trabajar en equipo. Cada día aprendo algo nuevo.",
   "projects": "Proyectos",
+  "experience": "Experiencia Profesional",
   "super-heroes-app": "App de Superhéroes",
   "description-super-heroes-app": "Buscador de Superhéroes de Marvel y DC. SPA (Aplicación de una sola página), múltiples enrutadores, Push y Replace en el History, lee argumentos por url, QueryParams, aplica filtros usando QueryStrings.", 
   "see-live": "Ver Ahora",
@@ -24,5 +25,11 @@
   "description-henryfy":"Ecommerce completo realizado en grupo para trabajo final del Bootcamp SoyHenry. React, Redux, Sequelize, Boostrap, Autenticación de Usuarios, Carrito de compras, Gestión de Órdenes, Reseñas y mucho más.",
   "experiences": "Experiencias",
   "gif-expert-app": "App Experta en GIFS",
-  "description-gif-expert-app": "App para buscar 10 gif del tema que sea y poder desplegarlos. Se ordenarán siempre de la última búsqueda a la primera. Realiza consulta a una API y utiliza Hooks de React."
+  "description-gif-expert-app": "App para buscar 10 gif del tema que sea y poder desplegarlos. Se ordenarán siempre de la última búsqueda a la primera. Realiza consulta a una API y utiliza Hooks de React.",
+  "navix": "Navix", 
+  "description-navix": "Sitio para manejarle de forma ágil a sus clientes los distintos procesos de facturación. Una de las tareas de mi primera experiencia profesional en la empresa Pengyi Labs, de Costa Rica.",
+  "loveseat":"Loveseat",
+  "description-loveseat": "Modernos de mediados de siglo para cada habitación, ropa de cama de diseñador, colchones nuevos, estilo danés, gabinetes, asientos vintage y más. Sitio desarrollado durante mi experiencia profesional en Pengyi Labs, Costa Rica.",
+  "tignis":"Tignis",
+  "description-tignis": "Control de procesos impulsado por IA con una base de física e ingeniería. Sitio desarrollado durante mi experiencia profesional en Pengyi Labs, Costa Rica. Trabajado con Wordpress"
 }
